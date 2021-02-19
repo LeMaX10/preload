@@ -1,0 +1,23 @@
+{
+    "name": "lemax10/preload",
+    "license": "MIT",
+    "description": "Simple preloader OctoberCMS from php7.4",
+    "type": "october-plugin",
+    "authors": [
+        {
+            "name": "Vladimir Pyankov (aka LeMaX10)",
+            "email": "rdlrobot@gmail.com",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "october/rain": "1.0.*|1.1.*",
+        "october/system": "1.0.*|1.1.*",
+        "october/cms": "1.0.*|1.1.*",
+        "ext-zend-opcache": "*"
+    },
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    }
+}
